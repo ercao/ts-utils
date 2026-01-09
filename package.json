@@ -1,36 +1,36 @@
 {
   "name": "@ercao/ts-utils",
   "version": "0.0.1",
-  "type": "module",
   "author": "ercao",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
+  "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     },
     "./tw": {
-      "import": "./dist/tw.js",
-      "types": "./dist/tw.d.ts"
+      "types": "./dist/tw.d.ts",
+      "import": "./dist/tw.js"
     },
     "./defu": {
-      "import": "./dist/defu.js",
-      "types": "./dist/defu.d.ts"
+      "types": "./dist/defu.d.ts",
+      "import": "./dist/defu.js"
     },
     "./remeda": {
-      "import": "./dist/time.js",
-      "types": "./dist/time.d.ts"
+      "types": "./dist/time.d.ts",
+      "import": "./dist/time.js"
     },
     "./ts-pattern": {
-      "import": "./dist/ts-pattern.js",
-      "types": "./dist/ts-pattern.d.ts"
+      "types": "./dist/ts-pattern.d.ts",
+      "import": "./dist/ts-pattern.js"
     },
     "./type-fest": {
-      "import": "./dist/type-fest.js",
-      "types": "./dist/type-fest.d.ts"
+      "types": "./dist/type-fest.d.ts",
+      "import": "./dist/type-fest.js"
     }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "dev": "tsdown --watch",
@@ -51,6 +51,7 @@
     "ts-pattern": "5.9.0"
   },
   "devDependencies": {
+    "lint-staged": "^16.2.7",
     "oxfmt": "^0.23.0",
     "oxlint": "^1.38.0",
     "tsdown": "^0.18.1",
