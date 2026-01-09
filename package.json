@@ -1,0 +1,58 @@
+{
+  "name": "@ercao/utils",
+  "version": "0.0.1",
+  "type": "module",
+  "author": "ercao",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./tw": {
+      "import": "./dist/tw.js",
+      "types": "./dist/tw.d.ts"
+    },
+    "./defu": {
+      "import": "./dist/defu.js",
+      "types": "./dist/defu.d.ts"
+    },
+    "./remeda": {
+      "import": "./dist/time.js",
+      "types": "./dist/time.d.ts"
+    },
+    "./ts-pattern": {
+      "import": "./dist/ts-pattern.js",
+      "types": "./dist/ts-pattern.d.ts"
+    },
+    "./type-fest": {
+      "import": "./dist/type-fest.js",
+      "types": "./dist/type-fest.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": " tsdown",
+    "lint": "oxlint",
+    "lint:fix": "oxlint"
+  },
+  "dependencies": {
+    "date-fns": "4.1.0",
+    "defu": "6.1.4",
+    "file64": "~1.0.5",
+    "filesize": "~11.0.13",
+    "js-file-download": "0.4.12",
+    "normalize-url": "8.1.0",
+    "query-string": "9.3.1",
+    "remeda": "~2.32.0",
+    "tailwind-variants": "~3.2.2",
+    "ts-pattern": "5.9.0"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.23.0",
+    "oxlint": "^1.38.0",
+    "tsdown": "^0.18.1",
+    "type-fest": "5.2.0",
+    "typescript": "^5.9.3",
+    "vue-component-type-helpers": "~3.1.8"
+  }
+}

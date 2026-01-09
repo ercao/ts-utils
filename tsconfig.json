@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+
+    "types": []
+  },
+
+  "exclude": ["dist"]
+}
