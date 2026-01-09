@@ -41,7 +41,7 @@
     "file64": "~1.0.5",
     "filesize": "~11.0.13",
     "js-file-download": "0.4.12",
-    "normalize-url": "8.1.0",
+    "normalize-url": "8.1.1",
     "query-string": "9.3.1",
     "remeda": "~2.32.0",
     "tailwind-variants": "~3.2.2",
