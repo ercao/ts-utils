@@ -31,9 +31,8 @@ jobs:
         with:
           version: 10
           cache: true
-      - name: Install dependencies
-        run: pnpm install
-      #
-      - run: pnpm publish --access public
+      - run: pnpm install
+      - run: pnpm build
+      - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

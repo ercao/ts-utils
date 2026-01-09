@@ -1,7 +1,10 @@
 {
   "name": "@ercao/ts-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "ercao",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "exports": {
     ".": {
@@ -30,6 +33,7 @@
     }
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
