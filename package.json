@@ -46,7 +46,7 @@
     "js-file-download": "0.4.12",
     "normalize-url": "8.1.1",
     "query-string": "9.3.1",
-    "remeda": "~2.32.0",
+    "remeda": "~2.33.0",
     "tailwind-variants": "~3.2.2",
     "ts-pattern": "5.9.0"
   },
