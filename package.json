@@ -1,8 +1,11 @@
 {
-  "name": "@ercao/utils",
+  "name": "@ercao/ts-utils",
   "version": "0.0.1",
   "type": "module",
   "author": "ercao",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.js",
