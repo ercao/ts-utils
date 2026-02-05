@@ -31,7 +31,7 @@ importers:
         version: 9.3.1
       remeda:
         specifier: ~2.33.0
-        version: 2.33.1
+        version: 2.33.5
       tailwind-variants:
         specifier: ~3.2.2
         version: 3.2.2(tailwindcss@4.1.18)
@@ -585,8 +585,8 @@ packages:
     resolution: {integrity: sha512-5fBfMOcDi5SA9qj5jZhWAcTtDfKF5WFdd2uD9nVNlbxVv1baq65aALy6qofpNEGELHvisjjasxQp7BlM9gvMzw==}
     engines: {node: '>=18'}
 
-  remeda@2.33.1:
-    resolution: {integrity: sha512-404Eba/HI/blNfbebo586OjEnAhq/x5jN1aIfK4gHnjAP7SADaRfDdIjo8Acpz7hkXgM06MPTwu4IbXamvM9Qw==}
+  remeda@2.33.5:
+    resolution: {integrity: sha512-FqmpPA9i9T5EGcqgyHf9kHjefnyCZM1M3kSdZjPk1j2StGNoJyoYp0807RYcjNkQ1UpsEQa5qzgsjLY4vYtT8g==}
 
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
@@ -1139,7 +1139,7 @@ snapshots:
       filter-obj: 5.1.0
       split-on-first: 3.0.0
 
-  remeda@2.33.1: {}
+  remeda@2.33.5: {}
 
   resolve-pkg-maps@1.0.0: {}
 
