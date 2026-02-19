@@ -24,8 +24,8 @@ importers:
         specifier: 0.4.12
         version: 0.4.12
       normalize-url:
-        specifier: 8.1.1
-        version: 8.1.1
+        specifier: 9.0.0
+        version: 9.0.0
       query-string:
         specifier: 9.3.1
         version: 9.3.1
@@ -536,9 +536,9 @@ packages:
     resolution: {integrity: sha512-tacvGzUY5o2D8CBh2rrwxyNojUsZNU2zjNTzKQrkgGJQTbGAfArVWXSKMBokBeeg6C7OLRGUEyoFlYbfeWQIqw==}
     engines: {node: '>=20.17'}
 
-  normalize-url@8.1.1:
-    resolution: {integrity: sha512-JYc0DPlpGWB40kH5g07gGTrYuMqV653k3uBKY6uITPWds3M0ov3GaWGp9lbE3Bzngx8+XkfzgvASb9vk9JDFXQ==}
-    engines: {node: '>=14.16'}
+  normalize-url@9.0.0:
+    resolution: {integrity: sha512-z9nC87iaZXXySbWWtTHfCFJyFvKaUAW6lODhikG7ILSbVgmwuFjUqkgnheHvAUcGedO29e2QGBRXMUD64aurqQ==}
+    engines: {node: '>=20'}
 
   obug@2.1.1:
     resolution: {integrity: sha512-uTqF9MuPraAQ+IsnPf366RG4cP9RtUi7MLO1N3KEc+wb0a6yKpeL0lmk2IB1jY5KHPAlTc6T/JRdC/YqxHNwkQ==}
@@ -1091,7 +1091,7 @@ snapshots:
 
   nano-spawn@2.0.0: {}
 
-  normalize-url@8.1.1: {}
+  normalize-url@9.0.0: {}
 
   obug@2.1.1: {}
 
