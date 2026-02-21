@@ -59,7 +59,7 @@ importers:
         version: 5.9.3
       vue-component-type-helpers:
         specifier: ~3.2.0
-        version: 3.2.2
+        version: 3.2.5
 
 packages:
 
@@ -750,8 +750,8 @@ packages:
       synckit:
         optional: true
 
-  vue-component-type-helpers@3.2.2:
-    resolution: {integrity: sha512-x8C2nx5XlUNM0WirgfTkHjJGO/ABBxlANZDtHw2HclHtQnn+RFPTnbjMJn8jHZW4TlUam0asHcA14lf1C6Jb+A==}
+  vue-component-type-helpers@3.2.5:
+    resolution: {integrity: sha512-tkvNr+bU8+xD/onAThIe7CHFvOJ/BO6XCOrxMzeytJq40nTfpGDJuVjyCM8ccGZKfAbGk2YfuZyDMXM56qheZQ==}
 
   wrap-ansi@9.0.2:
     resolution: {integrity: sha512-42AtmgqjV+X1VpdOfyTGOYRi0/zsoLqtXQckTmqTeybT+BDIbM/Guxo7x3pE2vtpr1ok6xRqM9OpBe+Jyoqyww==}
@@ -1302,7 +1302,7 @@ snapshots:
     dependencies:
       rolldown: 1.0.0-beta.59
 
-  vue-component-type-helpers@3.2.2: {}
+  vue-component-type-helpers@3.2.5: {}
 
   wrap-ansi@9.0.2:
     dependencies:
