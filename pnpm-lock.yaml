@@ -50,13 +50,13 @@ importers:
         version: 1.38.0
       tsdown:
         specifier: ^0.18.1
-        version: 0.18.4(typescript@5.9.3)
+        version: 0.18.4(typescript@6.0.3)
       type-fest:
         specifier: 5.3.1
         version: 5.3.1
       typescript:
-        specifier: ^5.9.3
-        version: 5.9.3
+        specifier: ^6.0.0
+        version: 6.0.3
       vue-component-type-helpers:
         specifier: ~3.2.0
         version: 3.2.2
@@ -732,8 +732,8 @@ packages:
     resolution: {integrity: sha512-VCn+LMHbd4t6sF3wfU/+HKT63C9OoyrSIf4b+vtWHpt2U7/4InZG467YDNMFMR70DdHjAdpPWmw2lzRdg0Xqqg==}
     engines: {node: '>=20'}
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1150,7 +1150,7 @@ snapshots:
 
   rfdc@1.4.1: {}
 
-  rolldown-plugin-dts@0.20.0(rolldown@1.0.0-beta.57)(typescript@5.9.3):
+  rolldown-plugin-dts@0.20.0(rolldown@1.0.0-beta.57)(typescript@6.0.3):
     dependencies:
       '@babel/generator': 7.28.5
       '@babel/parser': 7.28.5
@@ -1162,7 +1162,7 @@ snapshots:
       obug: 2.1.1
       rolldown: 1.0.0-beta.57
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - oxc-resolver
 
@@ -1257,7 +1257,7 @@ snapshots:
 
   ts-pattern@5.9.0: {}
 
-  tsdown@0.18.4(typescript@5.9.3):
+  tsdown@0.18.4(typescript@6.0.3):
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
@@ -1268,7 +1268,7 @@ snapshots:
       obug: 2.1.1
       picomatch: 4.0.3
       rolldown: 1.0.0-beta.57
-      rolldown-plugin-dts: 0.20.0(rolldown@1.0.0-beta.57)(typescript@5.9.3)
+      rolldown-plugin-dts: 0.20.0(rolldown@1.0.0-beta.57)(typescript@6.0.3)
       semver: 7.7.3
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
@@ -1276,7 +1276,7 @@ snapshots:
       unconfig-core: 7.4.2
       unrun: 0.2.24
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - '@ts-macro/tsc'
       - '@typescript/native-preview'
@@ -1291,7 +1291,7 @@ snapshots:
     dependencies:
       tagged-tag: 1.0.0
 
-  typescript@5.9.3: {}
+  typescript@6.0.3: {}
 
   unconfig-core@7.4.2:
     dependencies:
