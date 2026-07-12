@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "date-fns": "4.1.0",
-    "defu": "6.1.4",
+    "defu": "6.1.7",
     "file64": "~1.0.5",
     "filesize": "~11.0.13",
     "js-file-download": "0.4.12",
